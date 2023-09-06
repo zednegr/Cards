@@ -1,8 +1,9 @@
 import styled from "styled-components";
 export const Container__box = styled.div`
-  width: 100%;
-  max-width: 1400px;
-  padding: 0 40px;
-  margin: 0 auto;
-  border:2px solid red;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 100vh;
+  gap: 0 30px;
+  margin-top: 200px;
 `;
